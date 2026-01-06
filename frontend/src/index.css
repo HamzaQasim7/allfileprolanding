@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply selection:bg-primary/20;
+  }
+  
+  body {
+    @apply bg-background-light text-text-main font-sans antialiased;
+  }
+}
+
+@layer components {
+  /* Glassmorphism Classes */
+  .glass-panel {
+    @apply bg-white/40 backdrop-blur-xl border border-white/60;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  }
+  
+  .glass-pill {
+    @apply bg-white/50 backdrop-blur-lg border border-white/80;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  }
+  
+  .glass-card {
+    @apply bg-white/75 backdrop-blur-xl border border-white/30 rounded-3xl;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .glass-card:hover {
+    @apply -translate-y-3 border-primary/30;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Text Gradients */
+  .text-gradient-blue {
+    @apply bg-gradient-to-r from-primary to-indigo-600 bg-clip-text text-transparent;
+  }
+  
+  .text-gradient-green {
+    @apply bg-gradient-to-r from-white to-green-400 bg-clip-text text-transparent;
+  }
+  
+  /* Hero Gradient */
+  .hero-gradient {
+    background: radial-gradient(circle at 100% 0%, rgba(74, 143, 227, 0.1) 0%, rgba(253, 251, 247, 0) 50%),
+                radial-gradient(circle at 0% 100%, rgba(253, 224, 196, 0.15) 0%, rgba(253, 251, 247, 0) 50%);
+  }
+  
+  /* Phone Shadow */
+  .phone-shadow {
+    filter: drop-shadow(0px 20px 40px rgba(74, 143, 227, 0.2));
+  }
+  
+  /* 3D Transform */
+  .perspective-container {
+    perspective: 1000px;
+  }
+  
+  .tilted-phone {
+    transform: rotateY(-15deg) rotateX(5deg) rotateZ(-2deg);
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+  }
+  
+  .perspective-container:hover .tilted-phone {
+    transform: rotateY(-10deg) rotateX(2deg) rotateZ(0deg) scale(1.02);
+  }
+}
+
+@layer utilities {
+  /* Custom animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fadeInUp {
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 0.5s ease-out;
+  }
+}
