@@ -11,24 +11,27 @@ const Testimonials = () => {
   ];
 
   const testimonials = [
+   
     {
-      quote: "AllFile Pro saved my finals week. The eye-friendly mode is a game changer for late-night study sessions, and the PDF highlighting is super smooth.",
-      name: "Sarah Jenkins",
+      quote: "AllFile Pro saved my finals week. The eye-friendly mode is amazing.",
+      name: "Aisha Khan",
       role: "Verified User • Student",
       avatar: "https://lh3.googleusercontent.com/aida-public/AB6AXuBCbuUZvQn71dtPRxp_jj9rUyO9JFedvc7XPp1VK1eKw42wkr8ZfRWf4JHCIZVtWydfZWKSI4vHJ9-Jbj3pZ96NlAx2fKCxRlSrfsXAgXHQUUwQBvhPA-z7earZFc25O34sUoiq0VDZJOCAwk0qgl5beHIFc4-P_E-Ht9fIC1YwBpBUc8YZbULZ4yezr4fK2fpLFHARPI3TmP_ENfv0TwqmzvGs7JYtEbnSL4-0ddSZbuVTEaK1v1gmKZmARdiI02LfmqnwlbHO2Bk"
     },
+ 
     {
-      quote: "I handle sensitive contracts daily. The offline privacy features give me peace of mind, and editing Word docs on my tablet feels just like a desktop.",
-      name: "Marcus Thorne",
-      role: "Verified User • Legal Consultant",
-      avatar: "https://lh3.googleusercontent.com/aida-public/AB6AXuAx_a7uPSRQdYb5zkVnyzP1XwiitAFEFJFGc6FRrfbgdAaZ-bN0Zbq66M87pNjptuE-80NxxlTW_dO68iyPyuvBf_W7D4Be-izHChEAsVsru_KbfLNj6H-6F6ElYwHOBfgX-bxq9tTJ9b0-rc2PlKQXrheoGiZoGNCdz9Lx-OfDfNhXwPBaPxXJ2F3kCiUKxANdr9hNMbc19dnmPiuVZGqUgO9QejSu6qpDqpFLHwg5XjlAPUFwdcoL-KEvbHAN5vCn1Uwfw2aiYmA"
+      quote: "The AI features help me learn better. I love AllFile Pro!",
+      name: "Priya Patel",
+      role: "Verified User • Researcher",
+      avatar: "https://lh3.googleusercontent.com/aida-public/AB6AXuACtE7jsWulNIbsi95QXYPqGxLquTFgFgFIsHOeQDDjCUMxY0RJZCIHPaxHUtMEHKVCYSNaTOertCZRBSM70vpFG9x-9mBCm3LSBYjYX7zuTiug7_HyZd_cyXvzDAoDoDYHwLBN62cmCHsV_LDVty-5TJmomFpiukK0yupCqXgSQhNv7ML3l2xUEjhrB7JFMvNbcHGpJmCWaKHkvzeaYR27kvKUveU6sCH34izbVparKzrTCe-lbCLDi0VZsM32pPCMvrNwgX_5YWYHOBfgX-bxq9tTJ9b0-rc2PlKQXrheoGiZoGNCdz9Lx-OfDfNhXwPBaPxXJ2F3kCiUKxANdr9hNMbc19dnmPiuVZGqUgO9QejSu6qpDqpFLHwg5XjlAPUFwdcoL-KEvbHAN5vCn1Uwfw2aiYmA"
     },
     {
-      quote: "As a researcher, I juggle dozens of formats. The AI summary tool helps me digest papers twice as fast. It's the only reader I need now.",
-      name: "Dr. Emily Carter",
-      role: "Verified User • Researcher",
-      avatar: "https://lh3.googleusercontent.com/aida-public/AB6AXuACtE7jsWulNIbsi95QXYPqGxLquTFgFgFIsHOeQDDjCUMxY0RJZCIHPaxHUtMEHKVCYSNaTOertCZRBSM70vpFG9x-9mBCm3LSBYjYX7zuTiug7_HyZd_cyXvzDAoDoDYHwLBN62cmCHsV_LDVty-5TJmomFpiukK0yupCqXgSQhNv7ML3l2xUEjhrB7JFMvNbcHGpJmCWaKHkvzeaYR27kvKUveU6sCH34izbVparKzrTCe-lbCLDi0VZsM32pPCMvrNwgX_5YWY"
-    }
+      quote: "Perfect reading experience. I use AllFile Pro daily.",
+      name: "Fatima Zahra",
+      role: "Verified User • Book Lover",
+      avatar: "https://lh3.googleusercontent.com/aida-public/AB6AXuBd5oXT9qdDuonuap-3jY7Udtlcy4hTRiUW5u2AYl6XM_LrSEatXKV-vSSZWP2cNP1Ld6Li0sXvHrmE2Zvv9Q1d4TU4h_MSm-FIQMJIIf86uGina_H02Te98EvKHABdMoroPx7uEEggHPr6Re23VJ1B5_x2ddnxO3soRascQVn6BjlwMq6XDdQ2vTzU1BD__wubvSpCDX37L8LSD4dJd0gGMEQiNHK2Qv4d7tsOj8I2et_mRqKOUPh9sXpI5cfoiE_YHvzedgLWiL8"
+    },
+ 
   ];
 
   return (

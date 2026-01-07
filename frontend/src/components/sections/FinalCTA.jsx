@@ -25,11 +25,8 @@ const FinalCTA = () => {
         {/* Headlines */}
         <div className="flex flex-col gap-6 mb-12 items-center">
           <h1 className="text-white text-5xl md:text-6xl lg:text-[72px] font-black leading-[1.1] tracking-tight max-w-[800px] drop-shadow-lg">
-            Ready to Read Smarter?
-          </h1>
-          <p className="text-white/90 text-lg md:text-xl lg:text-2xl font-medium leading-relaxed max-w-[720px] drop-shadow-sm">
             Join 500,000+ users who read, edit, and learn better with AllFile Pro.
-          </p>
+          </h1>
         </div>
 
         {/* CTA Buttons Area */}

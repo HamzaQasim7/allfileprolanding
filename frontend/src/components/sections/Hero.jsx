@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-start">
             <GlassPill className="px-4 py-1.5 flex items-center gap-2 animate-fadeIn">
               <span className="text-amber-500 text-sm">🏆</span>
-              <span className="text-slate-700 font-semibold text-xs tracking-wide uppercase">#1 Document Reader 2024</span>
+              <span className="text-slate-700 font-semibold text-xs tracking-wide uppercase">AI-Powered Reader</span>
             </GlassPill>
           </div>
 
@@ -57,11 +57,16 @@ const Hero = () => {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start pt-2">
-            <button className="bg-gradient-to-r from-primary to-indigo-600 text-white h-11 md:h-12 px-6 md:px-7 rounded-lg md:rounded-xl font-semibold text-sm md:text-base shadow-xl shadow-primary/30 flex items-center justify-center gap-2.5 transition-transform hover:-translate-y-0.5 active:translate-y-0 group">
-              <span className="material-symbols-outlined">android</span>
-              <span>Download Free</span>
+            <a 
+              href="https://urldra.cloud.huawei.com/yIJ6p2uE9y"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-primary to-indigo-600 text-white h-11 md:h-12 px-6 md:px-7 rounded-lg md:rounded-xl font-semibold text-sm md:text-base shadow-xl shadow-primary/30 flex items-center justify-center gap-2.5 transition-transform hover:-translate-y-0.5 active:translate-y-0 group"
+            >
+              <span className="material-symbols-outlined">download</span>
+              <span>Download Now</span>
               <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform text-sm">arrow_forward</span>
-            </button>
+            </a>
             <button className="glass-panel text-slate-800 h-11 md:h-12 px-6 md:px-7 rounded-lg md:rounded-xl font-semibold text-sm md:text-base hover:bg-white/60 transition-all flex items-center justify-center gap-2.5 group">
               <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center shadow-sm">
                 <span className="material-symbols-outlined text-primary text-lg ml-0.5">play_arrow</span>

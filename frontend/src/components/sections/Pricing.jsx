@@ -47,13 +47,13 @@ const Pricing = () => {
             {/* Price */}
             <div className="mb-10 mt-4">
               <div className="flex items-center justify-center gap-3 mb-2">
-                <span className="text-slate-400 dark:text-slate-500 text-xl font-medium line-through decoration-slate-400">$49.99</span>
+                <span className="text-slate-400 dark:text-slate-500 text-xl font-medium line-through decoration-slate-400">$79.99</span>
                 <div className="bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-400 px-2 py-0.5 rounded text-xs font-bold uppercase tracking-wider">100% Off</div>
               </div>
               <h2 className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white tracking-tight">
-                $0 <span className="text-2xl md:text-3xl font-bold text-slate-600 dark:text-slate-400 tracking-normal">FOREVER.</span>
+                $0 <span className="text-2xl md:text-3xl font-bold text-slate-600 dark:text-slate-400 tracking-normal">Limited Time</span>
               </h2>
-              <p className="text-primary font-bold text-sm tracking-widest mt-2 uppercase opacity-80">Seriously.</p>
+              <p className="text-primary font-bold text-sm tracking-widest mt-2 uppercase opacity-80">Only for the first 1000 users</p>
             </div>
 
             {/* Features Grid */}
@@ -68,13 +68,18 @@ const Pricing = () => {
 
             {/* CTA Area */}
             <div className="flex flex-col items-center gap-4 w-full">
-              <button className="relative w-full max-w-sm group overflow-hidden rounded-xl bg-white dark:bg-slate-800 border-2 border-primary text-primary dark:text-primary shadow-xl hover:shadow-2xl hover:bg-blue-50 dark:hover:bg-slate-700 transition-all duration-300 py-4 px-8 animate-pulse-slow transform hover:-translate-y-1">
+              <a 
+                href="https://urldra.cloud.huawei.com/yIJ6p2uE9y"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative w-full max-w-sm group overflow-hidden rounded-xl bg-white dark:bg-slate-800 border-2 border-primary text-primary dark:text-primary shadow-xl hover:shadow-2xl hover:bg-blue-50 dark:hover:bg-slate-700 transition-all duration-300 py-4 px-8 animate-pulse-slow transform hover:-translate-y-1"
+              >
                 <div className="absolute inset-0 w-full h-full bg-primary/5 group-hover:bg-primary/10 transition-colors"></div>
                 <span className="relative z-10 text-xl md:text-2xl font-bold tracking-tight flex items-center justify-center gap-3">
                   DOWNLOAD FREE NOW
                   <span className="material-symbols-outlined text-[28px]">download</span>
                 </span>
-              </button>
+              </a>
               <p className="text-xs font-medium text-slate-400 dark:text-slate-500 flex items-center gap-1.5">
                 <span className="material-symbols-outlined text-[16px]">bolt</span>
                 500KB download • Android 8.0+

@@ -8,7 +8,6 @@ import Privacy from './components/sections/Privacy';
 import Testimonials from './components/sections/Testimonials';
 import Pricing from './components/sections/Pricing';
 import FAQ from './components/sections/FAQ';
-import FinalCTA from './components/sections/FinalCTA';
 import Footer from './components/sections/Footer';
 
 function App() {
@@ -33,7 +32,6 @@ function App() {
         <Testimonials />
         <Pricing />
         <FAQ />
-        <FinalCTA />
       </main>
 
       {/* Footer */}
