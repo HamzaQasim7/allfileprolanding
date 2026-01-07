@@ -1,5 +1,0 @@
-name = "allfileprolanding"
-compatibility_date = "2023-12-01"
-
-[env.production]
-name = "allfileprolanding"
