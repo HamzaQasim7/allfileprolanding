@@ -7,7 +7,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: "Is AllFile Pro really 100% free?",
-      answer: "Yes! AllFile Pro is completely free to download and use. We believe in accessible tools for everyone. While we may introduce optional premium themes or cloud sync features in the future, the core reading, AI assistance, and editing capabilities will always remain free."
+      answer: "Yes! AllFile Pro is completely free to download and use. We believe in accessible tools for everyone. While we may introduce optional premium themes or cloud sync features in the future, the core reading, AI assistance, and editing capabilities will always remain free for first 1000 users."
     },
     {
       question: "Does the AI assistant work offline?",
@@ -23,7 +23,7 @@ const FAQ = () => {
     },
     {
       question: "How much storage space does the app need?",
-      answer: "We pride ourselves on efficiency. The base app is under 45MB. If you choose to download the offline AI models for enhanced summarization, it may require an additional 150MB, but this is optional and can be managed in settings."
+      answer: "We pride ourselves on efficiency. The base app is under 30MB. If you choose to download the offline AI models for enhanced summarization, it may require an additional storage space, but this is optional and can be managed in settings."
     },
     {
       question: "Is my document data kept private?",
@@ -35,7 +35,7 @@ const FAQ = () => {
     },
     {
       question: "Will the app stay free forever?",
-      answer: "The current feature set you enjoy today will remain free forever. We support development through optional, non-intrusive donations and potential future premium themes for power users who want extensive customization."
+      answer: "The current feature set you enjoy today will remain free for first 1000 users. We support development through optional, non-intrusive donations and potential future premium themes for power users who want extensive customization."
     }
   ];
 
